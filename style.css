@@ -1,0 +1,205 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #3a2e5c;
+}
+
+header {
+  background-color: #3a2e5c;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #ffd23f;
+}
+
+.navbar-brand:hover {
+  color: #ffd23f;
+}
+
+.nav-link:hover {
+  color: #ffd23f;
+}
+
+.hero {
+  background-color: #3a2e5c;
+  color: white;
+  padding: 70px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero span {
+  color: #ffd23f;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+  max-width: 600px;
+}
+
+.btn-main {
+  background-color: #ffd23f;
+  color: #3a2e5c;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-main:hover {
+  background-color: #f0bd1a;
+  color: #3a2e5c;
+}
+
+.offers {
+  padding: 50px 0 60px 0;
+}
+
+.offers h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #ffd23f;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.swap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.swap p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.swap small {
+  color: #777;
+}
+
+.arrow {
+  font-size: 28px;
+}
+
+.page {
+  padding: 50px 0;
+}
+
+.page h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.page h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.table th {
+  background-color: #3a2e5c;
+  color: white;
+}
+
+.form-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.levels label {
+  margin: 0;
+  font-weight: 400;
+}
+
+.form-box .check {
+  font-weight: 400;
+}
+
+.form-box button {
+  margin-top: 25px;
+}
+
+input:focus {
+  outline: 3px solid #ffd23f;
+  outline-offset: 2px;
+}
+
+footer {
+  background-color: #3a2e5c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 45px 0;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .page {
+    padding: 35px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-box {
+    padding: 20px;
+  }
+}
